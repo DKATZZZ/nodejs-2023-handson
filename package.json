@@ -2,9 +2,10 @@
   "name": "excel-files-download",
   "version": "1.0.0",
   "description": "download/export excel files from mysql db using nodejs",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server.js"
   },
   "keywords": [
     "nodejs-excel-files-read-download"
@@ -12,9 +13,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "exceljs": "^4.1.0",
-    "express": "^4.17.1",
-    "mysql2": "^2.1.0",
-    "sequelize": "^6.3.0"
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.0",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "promise": "^8.3.0",
+    "sequelize": "^6.29.3",
+    "xlsx": "^0.18.5"
   }
 }
